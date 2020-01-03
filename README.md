@@ -31,9 +31,6 @@ Visit https://sites.google.com/a/chromium.org/chromedriver/home and download the
 
 Extract the chromedriver executable in your path. `~/bin/` if you have set that up, or `/usr/local/bin` if you're using brew and want it installed globaly.
 
-
-### Running The Tests
-
 If you want to save the virtual env setup every run then you can just do:
 
 ```
@@ -44,19 +41,13 @@ source scripts/start_virtualenv.sh
 ./scripts/run_tests.sh HO_ENV=staging USE_PANDORA=0 automations/browser_tests/test_evpn_login.py
 ```
 
-Example of running a particular test in staging:
-
-
-### Running The Tests
-
-If you want to save the virtual env setup every run then you can just do:
+### Running on multiple browsers
 
 ```
-source scripts/start_virtualenv.sh
-```
-
-```
-./scripts/run_tests.sh HO_ENV=staging USE_PANDORA=0 automations/browser_tests/test_evpn_login.py
+# browser based tests use a numerical suffix to the class name as a convention for
+# the option to spin up the test in multiple browsers, so for browser tests
+# if running a test case/class you will have to append `_1`
+./scripts/run_tests.sh HO_ENV=staging automations/browser_tests/test_departments.py:DepartmentsTest_1.test_department_visibility_and_status
 ```
 
 
