@@ -4,7 +4,7 @@
 
 ### Core flow
 
-![frameworkflowdiagram]/Users/lsuresh/Desktop/Screenshot%202020-01-02%20at%204.13.11%20PM.png
+![frameworkflowdiagram]Screenshot 2020-01-02 at 4.13.11 PM.png
 
 ### Checkout repo and setup tools ###
 ```
