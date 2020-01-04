@@ -16,6 +16,7 @@ cd automation
 # make sure the python version is 2.7.X
 brew install python2
 pip install virtualenv
+pip install -r requirements.py
 ```
 
 ### Config control
