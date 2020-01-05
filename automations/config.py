@@ -24,5 +24,5 @@ config = {
                 "base_domain": ".com",
                 "evpn_domain": "expressvpn.com",
                 "url_evpn": "https://{{evpn_domain}}",
-        },
+        }
 }
