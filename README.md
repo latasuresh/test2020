@@ -84,18 +84,15 @@ class SignIn(Section):
 ### Getting started ##
 
 ### Checkout repo and setup tools ###
-# repo
-git clone git@github.com:latasuresh/test2020.git
-cd automations
 
-# tool setup (if not already complete)
-# make sure the python version is 2.7.X
+git clone git@github.com:latasuresh/test2020.git
+cd test2020
+
+### tool setup (if not already complete)
 ```
 brew install python2
 pip install virtualenv
 ```
-
-
 ### Running tests ###
 
 ### ChromeDriver
@@ -114,7 +111,7 @@ source scripts/start_virtualenv.sh
 
 ### Setup enviornment for the dependencies
 ```
-pip install -r requirements.py
+pip install -r automations/requirements.py
 ```
 
 ### Run tests
