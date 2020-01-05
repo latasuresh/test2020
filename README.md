@@ -86,6 +86,7 @@ class SignIn(Section):
 ### Checkout repo and setup tools ###
 
 git clone git@github.com:latasuresh/test2020.git
+
 cd test2020
 
 ### tool setup (if not already complete)
