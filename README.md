@@ -2,7 +2,7 @@
 
 ### Core flow
 
-![frameworkflowdiagram](./Screenshot 2020-01-02 at 4.13.11 PM.png)
+![frameworkflowdiagram](./docs/Screenshot 2020-01-02 at 4.13.11 PM.png)
 
 ## Basic components ##
 
