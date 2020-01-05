@@ -1,0 +1,29 @@
+# base64
+# json
+http
+selenium
+urllib3==1.24.2
+nose-xunitmp==0.4.0
+requests
+rednose
+pyOpenSSL
+ndg-httpsclient
+pyasn1
+sauceclient
+nose-html-reporting
+python-dateutil<2.7.0,>=2.1
+six
+simplejson
+websocket
+websocket-client==0.48.0
+futures
+click
+pillow
+boto3>=1.6,<1.7
+nose-allure-plugin==1.0.5
+PyJWT==1.6.4
+elasticsearch6<7.0.0
+elasticsearch2<3.0.0
+faker
+parameterized
+pytz==2019.3
