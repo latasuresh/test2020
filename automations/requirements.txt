@@ -2,7 +2,7 @@
 # json
 http
 selenium
-urllib3==1.24.2
+urllib3==1.26.5
 nose-xunitmp==0.4.0
 requests
 rednose
