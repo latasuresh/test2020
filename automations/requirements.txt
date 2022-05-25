@@ -21,7 +21,7 @@ click
 pillow
 boto3>=1.6,<1.7
 nose-allure-plugin==1.0.5
-PyJWT==1.6.4
+PyJWT==2.4.0
 elasticsearch6<7.0.0
 elasticsearch2<3.0.0
 faker
